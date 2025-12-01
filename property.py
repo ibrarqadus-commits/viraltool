@@ -12,7 +12,13 @@ st.title("YouTube Viral Topics Tool")
 days = st.number_input("Enter Days to Search (1-30):", min_value=1, max_value=30, value=5)
 # List of broader keywords
 keywords = [
-"Mayfair property sold, Mayfair sold prices, Mayfair luxury property sold, Mayfair flat sold, Mayfair house sold, Mayfair prime central London sale, Mayfair £5m plus sale, Mayfair £10m plus property sold, Mayfair new build sold, Mayfair resale apartment sold, Mayfair penthouse sold, Mayfair ultra prime market, Mayfair property market 2025, Mayfair off market sale, Prime London sold prices Mayfair"]
+"Mayfair Property Sold", "Mayfair Sold Prices", "Mayfair Luxury Property Sold", "Mayfair Flat Sold", "Mayfair House Sold",
+
+"Mayfair Prime Central London Sale", "Mayfair £5m Plus Sale", "Mayfair £10m Plus Property Sold", "Mayfair New Build Sold", "Mayfair Resale Apartment Sold",
+
+"Mayfair Penthouse Sold", "Mayfair Ultra Prime Market", "Mayfair Property Market 2025", "Mayfair Off Market Sale",
+
+"Prime London Sold Prices Mayfair", "Mayfair Luxury Apartment Sold", "Mayfair High Value Property Sold", "Mayfair Super Prime Sale", "Mayfair Real Estate Sold", "Mayfair Completed Sales"]
 # Fetch Data Button
 if st.button("Fetch Data"):
     try:
