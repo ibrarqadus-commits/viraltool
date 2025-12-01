@@ -14,24 +14,7 @@ days = st.number_input("Search last X days:", min_value=1, max_value=30, value=3
 # ✅ Mixed keywords (Luxury Property + Viral so you ALWAYS get results)
 keywords = [
     # Luxury London Property
-    "London property tour",
-    "London mansion tour",
-    "London penthouse tour",
-    "Luxury homes London",
-    "London real estate",
-    "Mayfair house tour",
-    "Knightsbridge property",
-    "Chelsea property tour",
-    "Super prime London",
-    "UK luxury homes",
-
-    # Viral General (guaranteed results)
-    "Funny videos",
-    "TikTok compilation",
-    "Viral challenge",
-    "Meme videos",
-    "Cute dogs",
-    "Unboxing viral",
+    "musicmusic",
 ]
 
 if st.button("Fetch Data"):
