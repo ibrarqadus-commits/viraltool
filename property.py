@@ -30,7 +30,7 @@ days = st.number_input("Enter Days to Search (1-30):", min_value=1, max_value=30
 
 keywords = [
 
- "real estate", "investing", "real estate investing", "UK property market", "London real estate", "UK housing market 2023", "UK housing market", "property investment UK", "property", "buy to let", "BlackRock UK property", "buy to let UK", "investment trends", "UK investment", "British economy", "wealth inequality UK", "real estate news", "real estate trends", "housing market analysis", "UK housing crisis"
+ "property investing", "UK property investing", "how to invest in property", "property training", "property education", "property entrepreneur", "property investing tips", "property investing news", "real estate", "real estate investing", "millionaire", "property millionaire", "rent to rent", "passive income", "serviced accommodation", "lease option agreements", "buy refurbish refinance rent", "BRRR property", "HMO property", "below market value property", "how to be a property investor"
 
 ]
 
