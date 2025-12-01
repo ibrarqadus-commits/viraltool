@@ -30,7 +30,7 @@ if st.button("Fetch Data"):
                 "order": "viewCount",
                 "publishedAfter": start_date,
                 "maxResults": 5,
-                "key": API_KEY,
+                "key": AIzaSyAo8yIqky-HN9Y9TL24hiUvMggqBh05zA0,
             }
             # Fetch video data
             response = requests.get(YOUTUBE_SEARCH_URL, params=search_params)
