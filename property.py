@@ -14,7 +14,7 @@ days = st.number_input("Search last X days:", min_value=1, max_value=30, value=3
 # ✅ Mixed keywords (Luxury Property + Viral so you ALWAYS get results)
 keywords = [
     # Luxury London Property
-    "musicmusic",
+    "music",
 ]
 
 if st.button("Fetch Data"):
