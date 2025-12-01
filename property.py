@@ -201,7 +201,7 @@ if st.button("Fetch Data"):
 
         else:
 
-            st.warning("No results found for channels with fewer than 3,000 subscribers.")
+            st.warning("No results found for channels with fewer than 1,000 subscribers.")
 
 
     except Exception as e:
