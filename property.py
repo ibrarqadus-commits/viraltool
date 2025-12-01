@@ -12,9 +12,7 @@ st.title("YouTube Viral Topics Tool")
 days = st.number_input("Enter Days to Search (1-30):", min_value=1, max_value=30, value=5)
 # List of broader keywords
 keywords = [
-"19-minute couple video leak,instagram viral video kaise dekhe,
-instagram viral video boy and girl, instagram viral video 19 minutes,instagram viral video 19 minutes link,instagram viral video couple,19minutes 34 seconds viral video link,19 minutes 34 seconds viral video kaise dekhe,19 min 34 sec video,viral video 19 minute 34 second,viral video 19 minute,19 minute viral video"
-]
+"19-minute couple video leak"]
 # Fetch Data Button
 if st.button("Fetch Data"):
     try:
