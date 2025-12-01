@@ -68,7 +68,7 @@ if st.button("Fetch Data"):
                 video_url = f"https://www.youtube.com/watch?v={video['id']['videoId']}"
                 views = int(stat["statistics"].get("viewCount", 0))
                 subs = int(channel["statistics"].get("subscriberCount", 0))
-                if subs < 10000:  # Only include channels with fewer than 10,000 subscribers
+                if subs < 1000:  # Only include channels with fewer than 10,000 subscribers
                     all_results.append({
                         "Title": title,
                         "Description": description,
