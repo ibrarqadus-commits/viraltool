@@ -12,7 +12,7 @@ st.title("YouTube Viral Topics Tool")
 days = st.number_input("Enter Days to Search (1-30):", min_value=1, max_value=30, value=5)
 # List of broader keywords
 keywords = [
- "#ukhousingmarket #ukpropertymarket #LondonHousingCrisis"
+ "ukhousingmarket,ukpropertymarket,LondonHousingCrisis"
 ]
 # Fetch Data Button
 if st.button("Fetch Data"):
