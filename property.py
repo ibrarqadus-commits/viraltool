@@ -12,7 +12,7 @@ st.title("YouTube Viral Topics Tool")
 days = st.number_input("Enter Days to Search (1-30):", min_value=1, max_value=30, value=5)
 # List of broader keywords
 keywords = [
- "ukhousingmarket,ukpropertymarket,LondonHousingCrisis"
+ "ukhousingmarket,ukpropertymarketLondonHousingCrisis"
 ]
 # Fetch Data Button
 if st.button("Fetch Data"):
@@ -69,7 +69,7 @@ if st.button("Fetch Data"):
                 video_url = f"https://www.youtube.com/watch?v={video['id']['videoId']}"
                 views = int(stat["statistics"].get("viewCount", 0))
                 subs = int(channel["statistics"].get("subscriberCount", 0))
-                if subs < 100,000:  # Only include channels with fewer than 3,000 subscribers
+                if subs < 10000:  # Only include channels with fewer than 10,000 subscribers
                     all_results.append({
                         "Title": title,
                         "Description": description,
@@ -90,6 +90,6 @@ if st.button("Fetch Data"):
                 )
                 st.write("---")
         else:
-            st.warning("No results found for channels with fewer than 100,000 subscribers.")
+            st.warning("No results found for channels with fewer than 10,000 subscribers.")
     except Exception as e:
         st.error(f"An error occurred: {e}")
