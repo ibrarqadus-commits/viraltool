@@ -89,6 +89,6 @@ if st.button("Fetch Data"):
                 )
                 st.write("---")
         else:
-            st.warning("No results found for channels with fewer than 10,000 subscribers.")
+            st.warning("No results found for channels with fewer than 1,000 subscribers.")
     except Exception as e:
         st.error(f"An error occurred: {e}")
