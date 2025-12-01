@@ -30,7 +30,7 @@ days = st.number_input("Enter Days to Search (1-30):", min_value=1, max_value=30
 
 keywords = [
 
- "London tours", "London property", "London guide", "London secrets", "London walks", "Secret London", "Luxury London", "London homes", "London food", "London places", "London shopping", "London shops", "London hotels", "London locations", "London regeneration", "London people", "London money", "London property prices", "London life", "Londoner", "Iconic London", "London landmarks", "London real estate", "Historic London", "Modern London", "London attractions", "London travel tips", "London living", "London neighbourhoods"
+ "North Korea", "smartphone", "iPhone", "North", "Korea", "Kim Jong Un"
 
 ]
 
