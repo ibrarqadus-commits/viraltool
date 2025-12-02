@@ -14,7 +14,11 @@ days = st.number_input("Search last X days:", min_value=1, max_value=30, value=3
 # ✅ Mixed keywords (Luxury Property + Viral so you ALWAYS get results)
 keywords = [
     # Luxury London Property
-    "music",
+    "London Property Market", "UK Budget 2025", "London Real Estate", "London Property Investment", "London Housing Market",
+"Buy To Let London", "Private Landlords UK", "Institutional Landlords UK", "London Asset Management", "London Property Yields",
+"Distressed Property Sales London", "Prime London Property", "London Family Offices", "International Buyers London", "London Rental Market",
+"Void Periods London", "Rising Service Charges London", "London Property Investment Opportunities", "London Real Estate Trends 2025",
+"Improve Rental Yields London", "International Investors London", "Review Property Portfolio 2025"
 ]
 
 if st.button("Fetch Data"):
